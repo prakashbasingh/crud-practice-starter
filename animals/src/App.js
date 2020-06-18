@@ -5,7 +5,7 @@ import { Route, Switch } from "react-router-dom";
 import Login from "./components/Login.js";
 import Header from "./components/Header.js";
 
-export default function App() {
+const App = () => {
 
   return (
     <div className="App">
@@ -17,3 +17,4 @@ export default function App() {
     </div>
   );
 };
+export default App
